@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="前程贷项目">
+
+    <test name="注册接口">
+        <classes>
+            <class name="com.lemon.cases.RegisterCase"/>
+            <parameter name="sheetIndex" value="0"/>
+        </classes>
+    </test>
+    <test name="登录接口">
+        <classes>
+            <class name="com.lemon.cases.LoginCase"/>
+            <parameter name="sheetIndex" value="1"/>
+        </classes>
+    </test>
+
+    <test name="充值接口">
+        <classes>
+            <class name="com.lemon.cases.RechargeCase"/>
+            <parameter name="sheetIndex" value="2"/>
+        </classes>
+    </test>
+
+    <test name="新增项目接口">
+        <classes>
+            <class name="com.lemon.cases.AddCase"/>
+            <parameter name="sheetIndex" value="3"/>
+        </classes>
+    </test>
+
+    <test name="管理员登录接口">
+        <classes>
+            <class name="com.lemon.cases.LoginCase"/>
+            <parameter name="sheetIndex" value="4"/>
+        </classes>
+    </test>
+
+    <test name="审核项目接口">
+        <classes>
+            <class name="com.lemon.cases.AuditCase"/>
+            <parameter name="sheetIndex" value="5"/>
+        </classes>
+    </test>
+
+    <test name="投资接口">
+        <classes>
+            <class name="com.lemon.cases.InvestCase"/>
+            <parameter name="sheetIndex" value="6"/>
+        </classes>
+    </test>
+</suite>
